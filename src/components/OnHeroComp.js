@@ -4,6 +4,10 @@ import React from 'react';
 import './OnHeroComp.css';
 import OnHeroContents from './OnHeroContents';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+
+
 
 
 export default function OnHeroComp() {
@@ -16,10 +20,12 @@ export default function OnHeroComp() {
         
         
         
-                <div className="OnheroNav"> 
+      <div className="OnheroNav"> 
 		   <nav>
 		   <ul>
-		   <li>User Profile</li>
+		   
+		    
+		    <li><FontAwesomeIcon icon={faUser} /><span>User Profile</span></li>
 		   <li>Goal Tracking</li>
 		   <li>Appointments</li>
 		   <li>Selections</li>
@@ -32,7 +38,7 @@ export default function OnHeroComp() {
 		   
 		   <OnHeroContents />
 		   
-                </div>
+     </div>
         )
 
 }

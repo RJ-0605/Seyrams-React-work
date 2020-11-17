@@ -1,6 +1,14 @@
 
 
 
+nav  {
+		margin-top:1rem;
+		margin-left:5%;
+		border-bottom:1px solid gray;
+		width:90%;
+		}
+
+
 
 .OnheroNav {
     width: 90%;
@@ -14,7 +22,7 @@
 
 li {   
      display:inline;
-     padding:3rem;
+     
      margin-top:1rem;
      border-bottom:black;
 
@@ -22,7 +30,8 @@ li {
 }
 
 ul {
-     text-align:center;
+     display:flex;
+     justify-content:space-evenly;
 
 }
 
@@ -32,6 +41,7 @@ ul {
 }
 
 .buton{
+	margin:1rem 3rem 5rem 0rem;
 	margin-right:3rem;
 
 }
